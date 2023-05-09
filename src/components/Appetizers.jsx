@@ -50,73 +50,13 @@ export default function Products() {
       description: "Springs Mix, Candied Pecans, Strawberry Vinaigrette, Greek Yougurt with Lime Zest, Parmesan Grit, Croutons, Macerated Rhubarb, Carrots, Radishes - GF/VG",
       price: "$16",
     },
-    // {
-    //   image: product4,
-    //   name: "Diver Scallops",
-    //   description: "Tequila Lime Seared Scallops, Andouille Sausage, Savannah Red Rice, Red Beans, Lime and Peach Chutney, Lime Butter Sauce",
-    //   price: "$45",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Brunswick Gumbo",
-    //   description: "Wild Caught Louisiana Gulf Shrimp, Louisiana Crawfish, Beer Braised Pork Butt, Crispy Frog Legs, Grilled Andouille Sausage, Corn, Trinity Mirepoix, Okra, Dark Cajun Roux, Carolina Gold Rice, Fried Green Tomato",
-    //   price: "Cup Portion $14 | Entree Portion $36",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Tarragon Mussels",
-    //   description: "Prince Edward Island Mussels, Crispy Pancetta, Sweet Peppadews, White Wine Tarragon Cream Sauce, Lavash",
-    //   price: "$32",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Shrimp and Grits",
-    //   description: "Sauteed Wild Caught Louisiana Gulf Shrimp, Roasted Corn Bisque, Creole Spices, Stone-Ground Georgia Grits, Smoked Gouda and Bacon, Red Pepper Jam - GF",
-    //   price: "Cup Portion $12 | Entree Portion $36",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Local Day Boat Fish",
-    //   description: "Our Fish Monger Brings the Chef Daily Caught Fish. Ever Changing; Our Always Fresh Product Allows Our Chef to Create Something Special for his Guests. Your Server Will Describe What's Cooking Tonight!",
-    //   price: "Market Price",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Beef Filet",
-    //   description: "Fire Grilled All-Natural Grass-Fed New York Strip, Smashed Duck Fat Fingerling Potatoes, Chimichurri, Sauteed Asparagus - GF",
-    //   price: "$45",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Wild Boar Shank",
-    //   description: "Wild Boar Confit, Parsnip Puree, Carrots, Roasted Brussels, Rum Glaze, Sweet Plantains - GF",
-    //   price: "$41",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Duck",
-    //   description: "Smoked Duck Breast, Roasted Carrot and Peppadew Puree, Roasted Brussels Sprouts with Bacon, Crispy Potatoes, Sweet Tea Glaze - GF",
-    //   price: "$41",
-    // },
-    // {
-    //   image: product4,
-    //   name: "The 'Little Hilbo' 16oz",
-    //   description: "Hilbo Spiced and Grilled All-Natiral Grass-Fed Beef Ribeye, Boursin Mashed Potatoes and Hilbo Butter, Sauteed Brocolli, Caramelized Onions, Veal Demi-Glace, Bourbon Peppercorn Cream - GF",
-    //   price: "$53",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Cowboy Hilbo 32oz",
-    //   description: "Hilbo Spiced and Grilled All-natural Grass-Fed Beef Ribeye - GF",
-    //   price: "$106",
-    // },
   ];
 
   return (
     <Section id='products'>
       <div className="title">
         <h1>
-          <span>Dinner</span> Menu
+          Dinner Menu
         </h1>
         <h1>Small Things Considered!</h1>
       </div>

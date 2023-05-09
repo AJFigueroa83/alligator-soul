@@ -40,9 +40,6 @@ export default function Products() {
   return (
     <Section id='products'>
       <div className="title">
-        {/* <h1>
-          <span>Dinner</span> Menu
-        </h1> */}
         <h1>Grass-Fed and All-Natural!</h1>
       </div>
       <div className='products'>

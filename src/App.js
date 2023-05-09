@@ -11,6 +11,7 @@ import Testimonials from "./components/Testimonials";
 import Appetizers from "./components/Appetizers";
 import SeaFood from "./components/SeaFood";
 import Meats from "./components/Meats";
+import Cocktails from "./components/Cocktails";
 import scrollreveal from "scrollreveal";
 
 export default function App() {
@@ -50,6 +51,7 @@ export default function App() {
       <Appetizers />
       <SeaFood />
       <Meats />
+      <Cocktails />
       <Newsletter />
       <Footer />
     </>

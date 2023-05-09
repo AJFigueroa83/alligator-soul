@@ -5,48 +5,6 @@ import { imageZoomEffect, TitleStyles } from './ReusableStyles'
 
 export default function Products() {
   const data = [
-    // {
-    //   image: product1,
-    //   name: "Alligator Boudin Fritters",
-    //   description: "Alligator Boudin Fritters served with Peppadews, Hilbo Aioli and Parsley Oil - GF",
-    //   price: "$22",
-    // },
-    // {
-    //   image: product2,
-    //   name: "Chopped Salad",
-    //   description: "Baby Iceberg, Crumbled Blue Cheese, Cherry Tomatoes, Walnuts, Cranberries, Blue Cheese Dressing, Bacon - GF",
-    //   price: "$15",
-    // },
-    // {
-    //   image: product3,
-    //   name: "Roasted Mushroom Salad",
-    //   description: "Wild Mushrooms, Farro, Caramelized Shallots, Local Greens, Lemon Vinaigrette, Shaved Black Truffle, White Truffle Oil - VG",
-    //   price: "$17",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Candied Alligator",
-    //   description: "Maple Glazed Alligator, Caramel Popcorn - GF",
-    //   price: "$17",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Carving Board",
-    //   description: "Candied Alligator, Roasted Bone marrow, Artisanal Cheeses, Assorted Accouterments, Assorted Flat Breads",
-    //   price: "$31",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Alligator Tempura",
-    //   description: "Alligator Tempura, Seaweed Salad, Sweet Chili, Pickled Ginger, Toasted Sesame Seeds",
-    //   price: "$17",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Strawberry Rhubarb Salad",
-    //   description: "Springs Mix, Candied Pecans, Strawberry Vinaigrette, Greek Yougurt with Lime Zest, Parmesan Grit, Croutons, Macerated Rhubarb, Carrots, Radishes - GF/VG",
-    //   price: "$16",
-    // },
     {
       image: product4,
       name: "Diver Scallops",
@@ -77,44 +35,11 @@ export default function Products() {
       description: "Our Fish Monger Brings the Chef Daily Caught Fish. Ever Changing; Our Always Fresh Product Allows Our Chef to Create Something Special for his Guests. Your Server Will Describe What's Cooking Tonight!",
       price: "Market Price",
     },
-    // {
-    //   image: product4,
-    //   name: "Beef Filet",
-    //   description: "Fire Grilled All-Natural Grass-Fed New York Strip, Smashed Duck Fat Fingerling Potatoes, Chimichurri, Sauteed Asparagus - GF",
-    //   price: "$45",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Wild Boar Shank",
-    //   description: "Wild Boar Confit, Parsnip Puree, Carrots, Roasted Brussels, Rum Glaze, Sweet Plantains - GF",
-    //   price: "$41",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Duck",
-    //   description: "Smoked Duck Breast, Roasted Carrot and Peppadew Puree, Roasted Brussels Sprouts with Bacon, Crispy Potatoes, Sweet Tea Glaze - GF",
-    //   price: "$41",
-    // },
-    // {
-    //   image: product4,
-    //   name: "The 'Little Hilbo' 16oz",
-    //   description: "Hilbo Spiced and Grilled All-Natiral Grass-Fed Beef Ribeye, Boursin Mashed Potatoes and Hilbo Butter, Sauteed Brocolli, Caramelized Onions, Veal Demi-Glace, Bourbon Peppercorn Cream - GF",
-    //   price: "$53",
-    // },
-    // {
-    //   image: product4,
-    //   name: "Cowboy Hilbo 32oz",
-    //   description: "Hilbo Spiced and Grilled All-natural Grass-Fed Beef Ribeye - GF",
-    //   price: "$106",
-    // },
   ];
 
   return (
     <Section id='products'>
       <div className="title">
-        {/* <h1>
-          <span>Dinner</span> Menu
-        </h1> */}
         <h1>All Things From The Sea!</h1>
       </div>
       <div className='products'>
