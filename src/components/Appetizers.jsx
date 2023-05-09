@@ -130,7 +130,7 @@ export default function Products() {
                 </div> */}
                 <h2>{product.name}</h2>
                 <h3>{product.description}</h3>
-                <h3>{product.price}</h3>
+                <h3 className='price'>{product.price}</h3>
                 {/* <p>Come taste what we have to offer!!</p> */}
                 {/* <button>See Full Menu</button> */}
               </div>
@@ -160,6 +160,9 @@ ${TitleStyles};
     h3 {
       text-align: center;
       color: #450000;
+    }
+    .price {
+      font-style: italic;
     }
     p {
       text-align: center;
